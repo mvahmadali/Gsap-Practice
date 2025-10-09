@@ -13,7 +13,7 @@ function RotatingBox() {
     sizex = meshRef.current.scale.x;
     if (sizex <= 6) {
       sizex += delta * 0.1;
-      console.log(sizex, "increasing...")
+      // console.log(sizex, "increasing...")
     }
     else if (sizex >= 6) {
       sizex=1
